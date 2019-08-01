@@ -1,0 +1,29 @@
+package projet1;
+import java.util.Scanner;
+
+public class sdz1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner sc = new Scanner(System.in);
+		  char response = ' ';
+		  System.out.println("Choisissez le type de convertion : (f pour fahrenhiet / c pour celsius)");	 
+		  response = sc.nextLine().charAt(0);
+		  double temperature;
+		  
+			  if(response == 'f' || response == 'c') {
+				  System.out.println("Entrez la temperature que vous souhaitez convertir");
+				  sc.nextDouble();
+				  temperature = (double) sc.nextDouble();
+				  if(response == 'f') {
+					  
+				  }
+			  } else {
+				  System.out.println("Choisissez une option valide");
+			  }
+		  
+		  
+		
+	}
+
+}

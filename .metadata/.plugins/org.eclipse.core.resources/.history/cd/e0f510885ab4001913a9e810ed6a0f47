@@ -1,0 +1,3 @@
+module projet1.sdz1 {
+	exports sdz1;
+}
